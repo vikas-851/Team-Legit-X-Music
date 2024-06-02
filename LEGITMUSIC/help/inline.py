@@ -58,15 +58,15 @@ helpmenu = [
     [
         InlineKeyboardButton(
             text="ᴇᴠᴇʀʏᴏɴᴇ",
-            callback_data="fallen_cb help",
+            callback_data="legit_cb help",
         )
     ],
     [
-        InlineKeyboardButton(text="sᴜᴅᴏ", callback_data="fallen_cb sudo"),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", callback_data="fallen_cb owner"),
+        InlineKeyboardButton(text="sᴜᴅᴏ", callback_data="legit_cb sudo"),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", callback_data="legit_cb owner"),
     ],
     [
-        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="fallen_home"),
+        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="legit_home"),
         InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
     ],
 ]
@@ -75,7 +75,7 @@ helpmenu = [
 help_back = [
     [InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT)],
     [
-        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="fallen_help"),
+        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="legit_help"),
         InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
     ],
 ]
